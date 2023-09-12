@@ -1,52 +1,54 @@
-[
-    {
-        "id": 0,
-        "name": "Optimus Prime",
-        "displayPicture": "optimus-prime.jpg",
-        "faction" : 0,
-        "alternateMode": "Freightliner FLA 8664 Semi Truck",
-        "year": "1984",
-        "motto": "Freedom is the right of all sentient beings.",
-        "series": "Generation 1",
-        "techSpecs": {
-            "description": "Optimus Prime is the largest, strongest and wisest of all Autobots. Feels his role is the protection of all life, including Earth-life. Fights unceasingly to defeat the Decepticons. Splits into three autonomous modules: 1) Optimus Prime...the brain center known as the Commander, 2) Roller, the Autobot scout car...a spy who operates up to 1200 miles away; and 3) Autobot Headquarters...the combat deck equipped with a versatile mechanic/artillery robot. Injury to one module is felt by the other two.",
-            "stats": {
-                "str": 10.0,
-                "int": 10.0,
-                "spd": 8.0,
-                "end": 1.0,
-                "rnk": 10.0,
-                "crg": 10.0,
-                "fp": 8.0,
-                "skl": 10.0
-            }
+{
+    "profiles" : [
+        {
+            "id": 0,
+            "name": "Optimus Prime",
+            "displayPicture": "optimus-prime.jpg",
+            "faction" : 0,
+            "alternateMode": "Freightliner FLA 8664 Semi Truck",
+            "year": "1984",
+            "motto": "Freedom is the right of all sentient beings.",
+            "series": "Generation 1",
+            "techSpecs": {
+                "description": "Optimus Prime is the largest, strongest and wisest of all Autobots. Feels his role is the protection of all life, including Earth-life. Fights unceasingly to defeat the Decepticons. Splits into three autonomous modules: 1) Optimus Prime...the brain center known as the Commander, 2) Roller, the Autobot scout car...a spy who operates up to 1200 miles away; and 3) Autobot Headquarters...the combat deck equipped with a versatile mechanic/artillery robot. Injury to one module is felt by the other two.",
+                "stats": {
+                    "str": 10.0,
+                    "int": 10.0,
+                    "spd": 8.0,
+                    "end": 1.0,
+                    "rnk": 10.0,
+                    "crg": 10.0,
+                    "fp": 8.0,
+                    "skl": 10.0
+                }
+            },
+            "tags": ["autobot", "leader", "generation 1"],
+            "photoIds": [1,2,3]
         },
-        "tags": ["autobot", "leader", "generation 1"],
-        "photoIds": [1,2,3]
-    },
-    {
-        "id": 1,
-        "name": "Megatron",
-        "displayPicture": "megatron.jpg",
-        "faction" : 1,
-        "alternateMode": "Walther P38 Pistol",
-        "year": "1984",
-        "motto": "Peace through tyranny.",
-        "series": "Generation 1",
-        "techSpecs": {
-            "description": "Megatron combines brute strength, military cunning, ruthlessness and terror. Aches to return to Cybertron to complete the Decepticon conquest, but only after destroying all Autobots on Earth. Plans to possess all of Earth's resources. Incredibly powerful and intelligent. Fires particle beam cannon. Can link up interdimensionally to a black hole and draw anti-matter from it for use as a weapon. No known weakness.",
-            "stats": {
-                "str": 10.0,
-                "int": 10.0,
-                "spd": 4.0,
-                "end": 8.0,
-                "rnk": 10.0,
-                "crg": 9.0,
-                "fp": 10.0,
-                "skl": 9.0
-            }
-        },
-        "tags": ["decepticon", "leader", "generation 1"],
-        "photoIds": [4,5,6]
-    }
-]
+        {
+            "id": 1,
+            "name": "Megatron",
+            "displayPicture": "megatron.jpg",
+            "faction" : 1,
+            "alternateMode": "Walther P38 Pistol",
+            "year": "1984",
+            "motto": "Peace through tyranny.",
+            "series": "Generation 1",
+            "techSpecs": {
+                "description": "Megatron combines brute strength, military cunning, ruthlessness and terror. Aches to return to Cybertron to complete the Decepticon conquest, but only after destroying all Autobots on Earth. Plans to possess all of Earth's resources. Incredibly powerful and intelligent. Fires particle beam cannon. Can link up interdimensionally to a black hole and draw anti-matter from it for use as a weapon. No known weakness.",
+                "stats": {
+                    "str": 10.0,
+                    "int": 10.0,
+                    "spd": 4.0,
+                    "end": 8.0,
+                    "rnk": 10.0,
+                    "crg": 9.0,
+                    "fp": 10.0,
+                    "skl": 9.0
+                }
+            },
+            "tags": ["decepticon", "leader", "generation 1"],
+            "photoIds": [4,5,6]
+        }
+    ]
+}
