@@ -15,3 +15,25 @@ An attempt to further improve my proficiency with React and Redux Toolkit. I'll 
 The interface will visually start off very bare bones. I'm not sure how far I want to take that.
 
 _Don't be mad._
+
+## ToDos
+
+-   API
+-   Feed Page
+    -   Posts
+-   Profile Page
+    -   Personal Information
+        -   Photo
+        -   Name
+        -   Allegiance
+        -   Alternate Mode
+        -   Year Introduced
+        -   Motto
+    -   Post List
+        -   Posts
+    -   Photos
+-   Single Post
+    -   Date
+    -   Excerpt
+    -   Reactions
+    -   Replies

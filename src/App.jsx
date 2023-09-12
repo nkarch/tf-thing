@@ -1,7 +1,9 @@
-import { useState } from "react";
-
 function App() {
-    return <>TF Thing</>;
+    return (
+        <>
+            <h1>Transformers Thing</h1>
+        </>
+    );
 }
 
 export default App;
