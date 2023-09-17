@@ -1,7 +1,7 @@
-{
-    "profiles" : [
+[
         {
             "id": 0,
+            "slug": "optimus-prime",
             "name": "Optimus Prime",
             "displayPicture": "optimus-prime.jpg",
             "faction" : 0,
@@ -28,6 +28,7 @@
         {
             "id": 1,
             "name": "Megatron",
+            "slug": "megatron",
             "displayPicture": "megatron.jpg",
             "faction" : 1,
             "alternateMode": "Walther P38 Pistol",
@@ -51,4 +52,3 @@
             "photoIds": [4,5,6]
         }
     ]
-}

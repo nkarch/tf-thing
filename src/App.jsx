@@ -1,34 +1,24 @@
-import { useGetAllProfilesQuery } from "./services/profiles";
 import { useGetAllPostsQuery } from "./services/posts";
 
+import Post from "./components/Post";
+
 function App() {
-    const { data, error, isLoading } = useGetAllProfilesQuery();
-    const { data: data1, error: error1, isLoading: isLoading1 } = useGetAllPostsQuery();
+    const { data: posts, error, isLoading } = useGetAllPostsQuery();
 
     return (
         <>
             <h1>Transformers Thing</h1>
 
-            {error1 ? (
-                <>Oh no, there was an error</>
-            ) : isLoading1 ? (
-                <>Loading...</>
-            ) : data1 ? (
-                <>
-                    <span>{JSON.stringify(data1)}</span>
-                </>
-            ) : null}
-            <br></br>
-            <br></br>
-            <br></br>
+            <h2>Posts</h2>
+
             {error ? (
                 <>Oh no, there was an error</>
             ) : isLoading ? (
                 <>Loading...</>
-            ) : data ? (
-                <>
-                    <span>{JSON.stringify(data)}</span>
-                </>
+            ) : posts ? (
+                posts.map((post) => {
+                    return <Post key={post.id} post={post} />;
+                })
             ) : null}
         </>
     );

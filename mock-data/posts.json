@@ -1,32 +1,44 @@
-{
-    "posts": [
-        {
-            "id": 0,
-            "author": 0,
-            "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, iusto commodi inventore illum et qui quis, doloribus dignissimos blanditiis provident debitis, aspernatur animi sequi! Iste minus impedit quos, vitae explicabo veniam autem ut. Delectus aut laboriosam repellendus porro aspernatur odit hic ex architecto laborum fugit! Distinctio, modi? Cum, dolores reprehenderit?",
-            "dateTime": "1694512277",
-            "reactions": [
-                {
-                    "0": 2,
-                    "1": 4,
-                    "2": 7
-                }
-            ],
-            "children": []
-        },
-        {
-            "id": 1,
-            "author": 1,
-            "content": "Dipisicing elit. In, iusto commodi inventore illum et qui quis, doloribus dignissimos blanditiis provident debitis, aspernatur animi sequi! Iste minus impedit quos, vitae explicabo veniam autem ut. Delectus aut laboriosam repellendus porro aspernatur odit hic ex architecto laborum fugit! Distinctio, modi? Cum, dolores reprehenderit?",
-            "dateTime": "1694497877",
-            "reactions": [
-                {
-                    "0": 2,
-                    "1": 4,
-                    "2": 7
-                }
-            ],
-            "children": []
-        }
-    ]
-}
+[
+    {
+        "id": 0,
+        "authorId": 0,
+        "content": "Megatron sucks.",
+        "timestamp": "2023-09-11T20:48:00.000Z",
+        "reactions": [
+            {
+                "0": 2,
+                "1": 4,
+                "2": 7
+            }
+        ],
+        "children": [
+            {
+                "id": 0,
+                "authorId": 1,
+                "content": "Lol no u.",
+                "timestamp": "2023-09-12T21:48:00.000Z",
+                "reactions": [
+                    {
+                        "0": 2,
+                        "1": 4,
+                        "2": 7
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "authorId": 1,
+        "content": "DECEPTICONS! All hands meeting tonight! Finalizing plans on upcoming attack on Autobot City. Anyone missing will be fed to Insecticons.",
+        "timestamp": "2023-09-12T21:38:00.000Z",
+        "reactions": [
+            {
+                "0": 2,
+                "1": 4,
+                "2": 7
+            }
+        ],
+        "children": []
+    }
+]
