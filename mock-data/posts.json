@@ -11,21 +11,8 @@
                 "2": 7
             }
         ],
-        "children": [
-            {
-                "id": 0,
-                "authorId": 1,
-                "content": "Lol no u.",
-                "timestamp": "2023-09-12T21:48:00.000Z",
-                "reactions": [
-                    {
-                        "0": 2,
-                        "1": 4,
-                        "2": 7
-                    }
-                ]
-            }
-        ]
+        "parentId": null,
+        "to": []
     },
     {
         "id": 1,
@@ -39,6 +26,66 @@
                 "2": 7
             }
         ],
-        "children": []
+        "parentId": null,
+        "to": []
+    },
+    {
+        "id": 2,
+        "authorId": 0,
+        "content": "@megatron hey u up?",
+        "timestamp": "2023-09-12T21:38:00.000Z",
+        "reactions": [
+            {
+                "0": 2,
+                "1": 4,
+                "2": 7
+            }
+        ],
+        "parentId": null
+    },
+    {
+        "id": 3,
+        "authorId": 1,
+        "content": "Lol no u.",
+        "level": 1,
+        "timestamp": "2023-09-12T21:48:00.000Z",
+        "reactions": [
+            {
+                "0": 2,
+                "1": 4,
+                "2": 7
+            }
+        ],
+        "parentId": 0
+    },
+    {
+        "id": 4,
+        "authorId": 1,
+        "content": "whaaaa.",
+        "level": 1,
+        "timestamp": "2023-09-12T21:48:00.000Z",
+        "reactions": [
+            {
+                "0": 2,
+                "1": 4,
+                "2": 7
+            }
+        ],
+        "parentId": 3
+    },
+    {
+        "id": 5,
+        "authorId": 2,
+        "content": "eeeee.",
+        "level": 1,
+        "timestamp": "2023-09-12T21:48:00.000Z",
+        "reactions": [
+            {
+                "0": 2,
+                "1": 4,
+                "2": 7
+            }
+        ],
+        "parentId": 3
     }
 ]
