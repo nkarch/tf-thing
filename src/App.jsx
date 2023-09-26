@@ -1,25 +1,16 @@
-import { useGetAllPostsQuery } from "./services/posts";
+import { Routes, Route } from "react-router-dom";
 
-import Post from "./components/Post";
+import Posts from "./components/Posts";
+import Profile from "./components/Profile";
 
 function App() {
-    const { data: posts, error, isLoading } = useGetAllPostsQuery();
-
     return (
         <>
             <h1>Transformers Thing</h1>
-
-            <h2>Posts</h2>
-
-            {error ? (
-                <>Oh no, there was an error</>
-            ) : isLoading ? (
-                <>Loading...</>
-            ) : posts ? (
-                posts.map((post) => {
-                    return <Post key={post.id} post={post} />;
-                })
-            ) : null}
+            <Routes>
+                <Route path='/' element={<Posts />} />
+                <Route path='/user/:slug' element={<Profile />} />
+            </Routes>
         </>
     );
 }
